@@ -71,3 +71,40 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v490/proprietary/lib/libchromatix_hi544_snapshot.so:system/lib/libchromatix_hi544_snapshot.so \
     vendor/lge/v490/proprietary/lib/libmmcamera_hi544.so:system/lib/libmmcamera_hi544.so \
     vendor/lge/v490/proprietary/vendor/lib/libmmcamera_hi544_eeprom.so:system/vendor/lib/libmmcamera_hi544_eeprom.so
+
+# Radio — stock KitKat QCRIL/QMI (SIM ABSENT fix vs D850 LP kang)
+PRODUCT_COPY_FILES += \
+    vendor/lge/v490/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/v490/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/lge/v490/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/lge/v490/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/v490/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/v490/proprietary/lib/libuicc.so:system/lib/libuicc.so \
+    vendor/lge/v490/proprietary/lib/libvss_common_core.so:system/lib/libvss_common_core.so \
+    vendor/lge/v490/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
+    vendor/lge/v490/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
+    vendor/lge/v490/proprietary/lib/libvss_nv_core.so:system/lib/libvss_nv_core.so \
+    vendor/lge/v490/proprietary/lib/libvss_nv_idl.so:system/lib/libvss_nv_idl.so \
+    vendor/lge/v490/proprietary/lib/libvss_nv_iface.so:system/lib/libvss_nv_iface.so \
+    vendor/lge/v490/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/lge/v490/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/lge/v490/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
+    vendor/lge/v490/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
+    vendor/lge/v490/proprietary/vendor/lib/libdsucsd.so:system/vendor/lib/libdsucsd.so \
+    vendor/lge/v490/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
+    vendor/lge/v490/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
+    vendor/lge/v490/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi_csvt_srvc.so:system/vendor/lib/libqmi_csvt_srvc.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
+    vendor/lge/v490/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
+    vendor/lge/v490/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/lge/v490/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/lge/v490/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so
