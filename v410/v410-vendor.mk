@@ -72,7 +72,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v410/proprietary/lib/libmmcamera_hi544.so:system/lib/libmmcamera_hi544.so \
     vendor/lge/v410/proprietary/vendor/lib/libmmcamera_hi544_eeprom.so:system/vendor/lib/libmmcamera_hi544_eeprom.so
 
-# Radio — stock KitKat QCRIL/QMI (SIM ABSENT fix vs D850 LP kang)
+# Radio — stock KitKat QCRIL/QMI (SIM ABSENT fix vs D850 LP kang).
+# rmt_storage is D850/LP (798ebf01…), not stock KK (2d0dab4a… / ioprio_set).
 PRODUCT_COPY_FILES += \
     vendor/lge/v410/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/v410/proprietary/bin/netmgrd:system/bin/netmgrd \
