@@ -20,6 +20,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v400/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/lge/v400/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/lge/v400/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
+    vendor/lge/v400/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
+    vendor/lge/v400/proprietary/vendor/lib/libqmi_cci.so:system/vendor/lib/libqmi_cci.so \
+    vendor/lge/v400/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
+    vendor/lge/v400/proprietary/vendor/lib/libqmi_csi.so:system/vendor/lib/libqmi_csi.so \
+    vendor/lge/v400/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/lge/v400/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/lge/v400/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/v400/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
