@@ -1,7 +1,9 @@
 # QTI IMS stack for LTE v4xx (v410/v490).
 # Daemons: w7 (msm8226) where available; APK/libs: m216 (only complete 32-bit set).
+# NOT inherited by device.mk until CS voice gate passes (MO ACTIVE + MT ring).
 # Keep config_device_volte_available=false until ImsService binds + IMS_REG on-device.
-# Do NOT set persist.radio.calls.on.ims=true until that gate passes.
+# Do NOT set persist.radio.calls.on.ims=true / jbims=1 until that gate passes.
+# HITL: shipping this mk with ims_daemon=1 left GET_CURRENT_CALLS stuck at DIALING.
 
 PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
