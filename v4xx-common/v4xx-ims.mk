@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/v4xx-common/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/lge/v4xx-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/lge/v4xx-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-imsSDP.so:system/vendor/lib/lib-imsSDP.so \
