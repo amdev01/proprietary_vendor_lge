@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Grant dangerous runtime perms for vendor ims.apk (sharedUser phone).
+     Lineage 14.1 / N: default-permissions, not Oreo+ privapp-permissions.
+     HITL: missing READ_PHONE_STATE → LowBatteryHandler crash-loop / false no-SIM. -->
+<exceptions>
+    <exception package="org.codeaurora.ims">
+        <permission name="android.permission.READ_PHONE_STATE" fixed="true"/>
+    </exception>
+</exceptions>

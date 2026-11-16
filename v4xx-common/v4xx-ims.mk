@@ -3,6 +3,7 @@
 # Phase 1 (v490, 2026-11-15): inherited after CS MO ACTIVE + caller UI green.
 # Still keep config_device_volte_available=false and calls.on.ims=false / jbims=0
 # until ImsService bind + IMS_REG — then Phase 2/3 (IMS-BRINGUP.md).
+# 2026-11-16: default-permissions for READ_PHONE_STATE (vendor ims.apk crash-loop).
 
 PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
@@ -11,6 +12,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v4xx-common/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/lge/v4xx-common/proprietary/etc/permissions/ims.xml:system/etc/permissions/ims.xml \
     vendor/lge/v4xx-common/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
+    vendor/lge/v4xx-common/proprietary/etc/default-permissions/org.codeaurora.ims.xml:system/etc/default-permissions/org.codeaurora.ims.xml \
     vendor/lge/v4xx-common/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/lge/v4xx-common/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
